@@ -1,0 +1,27 @@
+########################################
+# Variables Alimentation SAS 
+########################################
+export BOZ_ALIM_USER=${BOP_USER}
+export BOZ_ALIM_MDP=${BOP_PASSWORD}
+export BOZ_ORACLE_SID=${ORACLE_SID}
+export BOZ_ORACLE_SID=jdbc:oracle:thin:@ylai1010.inetpsa.com:1521:BOP00
+export BOZ_SCHEMA_SAS=SAS
+export BOZ_PRD=BOZ
+
+export BOZ_PREFIXE_IN="bopfirpv_"
+export BOZ_REP_IN=${UNXDATA}
+export BOZ_REP_REJET=${UNXDATA}/rejets
+export BOZ_REP_VALIDE=${UNXDATA}/integre
+export BOZ_REP_LOG=${UNXLOG}
+export BOZ_FIC_LOG=$UNXJOB.log
+export BOZ_ORACLE_DRIVER=oracle.jdbc.driver.OracleDriver
+
+########################################
+# Variables Alimentation DTM
+########################################
+export BOZ_DTM_LOG=$UNXJOB.log
+
+########################################
+# Variables Purge Datamart
+########################################
+export BOZ_PUR_LOG=$UNXJOB.log

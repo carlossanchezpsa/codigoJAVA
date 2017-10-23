@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/castor-0.9.7.jar"/>
+	<classpathentry kind="lib" path="lib/castor-0.9.7-xml.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.8.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="lib/fwk-p6spy.jar"/>
+	<classpathentry kind="lib" path="lib/p6spy-unknown.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="lib/oro-2.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/xercesImpl-2.6.2.jar"/>
+	<classpathentry kind="lib" path="lib/xmlParserAPIs-2.6.2.jar"/>
+	<classpathentry kind="lib" path="lib/activation.jar"/>
+	<classpathentry kind="lib" path="lib/javax.mail.jar"/>
+	<classpathentry kind="lib" path="lib/jxl-2.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

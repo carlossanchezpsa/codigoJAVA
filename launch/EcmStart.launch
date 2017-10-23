@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/bozBatch/src/com/inetpsa/boz/rpv/ecm/start/EcmStart.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
+<stringAttribute key="org.eclipse.debug.core.source_locator_id" value="org.eclipse.jdt.launching.sourceLocator.JavaSourceLookupDirector"/>
+<stringAttribute key="org.eclipse.debug.core.source_locator_memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;javaProject name=&amp;quot;bozBatch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.jdt.launching.sourceContainer.javaProject&quot;/&gt;&#13;&#10;&lt;/sourceContainers&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;"/>
+<booleanAttribute key="org.eclipse.hyades.trace.ui.ATTR_AUTO_MONITORING" value="true"/>
+<stringAttribute key="org.eclipse.hyades.trace.ui.ATTR_DESTINATION_FILE" value=""/>
+<stringAttribute key="org.eclipse.hyades.trace.ui.ATTR_DESTINATION_MONITOR" value="Moniteurpardéfaut"/>
+<stringAttribute key="org.eclipse.hyades.trace.ui.ATTR_DESTINATION_PROJECT" value="Projetprofil"/>
+<stringAttribute key="org.eclipse.hyades.trace.ui.ATTR_FILTER_SET" value="Par défaut"/>
+<booleanAttribute key="org.eclipse.hyades.trace.ui.ATTR_PROFILE_TO_FILE" value="false"/>
+<booleanAttribute key="org.eclipse.hyades.trace.ui.ATTR_PROFILING_LIMIT_INVOCATIONS" value="false"/>
+<intAttribute key="org.eclipse.hyades.trace.ui.ATTR_PROFILING_LIMIT_INVOCATIONS_NUM" value="10000"/>
+<booleanAttribute key="org.eclipse.hyades.trace.ui.ATTR_PROFILING_LIMIT_SECONDS" value="false"/>
+<intAttribute key="org.eclipse.hyades.trace.ui.ATTR_PROFILING_LIMIT_SECONDS_NUM" value="5"/>
+<stringAttribute key="org.eclipse.hyades.trace.ui.ATTR_PROFILING_SET" value="org.eclipse.hyades.defaultProfilingSets.memory"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.inetpsa.boz.rpv.ecm.start.EcmStart"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="conf/BOZRPVPARAMETERS.properties"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="bozBatch"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-DLOG_FILE=uicfirpv.log &#13;&#10;-DUNXLOG=./&#13;&#10;-DBOZ_ALIM_USER=ALIM&#13;&#10;-DBOZ_ALIM_MDP=ALIM&#13;&#10;-DBOZ_ORACLE_SID=jdbc:oracle:thin:@ylai0019.inetpsa.com:1521:BOP0DEV&#13;&#10;-DBOZ_SCHEMA_SAS=SASINF&#13;&#10;-DBOZ_PRD=BOZ&#13;&#10;-DBOZ_PREFIXE_IN=bopfir&#13;&#10;-DBOZ_PREFIXE_PART_NET_IN=&quot;bopfirpv_net.dat.0&quot;&#13;&#10;-DBOZ_NET_IN=&quot;bopfirpv_rac_rap.tmp&quot;&#13;&#10;-DBOZ_REP_IN=C:/batchs&#13;&#10;-DBOZ_REP_NET_IN=C:/batchs/tmp&#13;&#10;-DBOZ_REP_REJET=C:/batchs/rejets&#13;&#10;-DBOZ_REP_VALIDE=C:/batchs/integre&#13;&#10;-DBOZ_REP_LOG=C:/batchs&#13;&#10;-DBOZ_FIC_LOG=log.log&#13;&#10;-DBOZ_ORACLE_DRIVER=com.p6spy.engine.spy.P6SpyDriver"/>
+</launchConfiguration>
